@@ -1,0 +1,55 @@
+.pie-container {
+    width: 20rem;
+    height: 22rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    margin-top: 1rem;
+}
+
+.chart-section {
+    flex: 1;
+    height: 80%; /* Set a fixed height */
+}
+
+.label-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.label-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+}
+
+.label-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.label-dot.high {
+    background-color: #e95a5a;
+}
+
+.label-dot.medium {
+    background-color: #f1c95f;
+}
+
+.label-dot.low {
+    background-color: #3780e7;
+}

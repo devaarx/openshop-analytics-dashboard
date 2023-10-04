@@ -1,0 +1,38 @@
+.header-container {
+    background-color: white;
+    height: 64px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e7eb;
+    justify-content: space-between;
+}
+
+.header-title {
+    color: black;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.notification-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
