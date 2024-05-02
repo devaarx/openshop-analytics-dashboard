@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const data = [
+const candidate_data = [
 	{
 		id: '3432',
 		interview: 'interview with Designer',
@@ -53,7 +53,7 @@ function UpcomingEvents() {
 			<strong className=" font-medium pl-16"><Link className="underline text-blue-700">View All</Link></strong>
 
 			<div className="mt-4 flex flex-col gap-3">
-				{data.map((product) => (
+				{candidate_data.map((product) => (
 					<Link
 						key={product.id}
 						to={`/product/${product.id}`}
