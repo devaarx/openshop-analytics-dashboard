@@ -1,9 +1,9 @@
 import {
 	HiOutlineViewGrid,
 	HiOutlineCube,
-	HiOutlineShoppingCart,
+	HiOutlineBriefcase,
 	HiOutlineUsers,
-	HiOutlineDocumentText,
+	HiMail,
 	HiOutlineAnnotation,
 	HiOutlineQuestionMarkCircle,
 	HiOutlineCog
@@ -17,28 +17,28 @@ export const DASHBOARD_SIDEBAR_LINKS = [
 		icon: <HiOutlineViewGrid />
 	},
 	{
-		key: 'products',
-		label: 'Products',
-		path: '/products',
+		key: 'application',
+		label: 'Application',
+		path: '/application',
 		icon: <HiOutlineCube />
 	},
 	{
-		key: 'orders',
-		label: 'Orders',
-		path: '/orders',
-		icon: <HiOutlineShoppingCart />
+		key: 'jobs',
+		label: 'Jobs',
+		path: '/jobs',
+		icon: <HiOutlineBriefcase />
 	},
 	{
-		key: 'customers',
-		label: 'Customers',
-		path: '/customers',
+		key: 'candidate',
+		label: 'Candidate',
+		path: '/candidates',
 		icon: <HiOutlineUsers />
 	},
 	{
-		key: 'transactions',
-		label: 'Transactions',
-		path: '/transactions',
-		icon: <HiOutlineDocumentText />
+		key: 'pending',
+		label: 'Pending',
+		path: '/pending',
+		icon: <HiMail />
 	},
 	{
 		key: 'messages',
